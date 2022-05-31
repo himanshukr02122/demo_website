@@ -1,0 +1,124 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --grey: #808080;
+  }
+
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    padding: 5px 30px;
+}
+
+/* ********************************* Navbar *********************************** */
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.logo {
+    height: 24px;
+}
+.logo img {
+    height: inherit;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:12px 0px;
+
+}
+.nav-items ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+.nav-items ul li {
+    margin:0 20px;
+
+}
+.ancTag {
+    text-decoration: none;
+    color: var(--grey);
+}
+.homeActive {
+    color: black;
+}
+
+.connect {
+    background: var(--blue);
+    color: #ffffff;
+    border-radius: 14px;
+    padding:1px 15px;
+}
+.b-i-f {
+    /* max-height: 60vh; */
+    background-image: url('../image assets/lalo-hernandez.jpg');
+    background-position: center;
+    padding: 0;
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.opa {
+    position: relative;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3)
+}
+.bodyh1P {
+    color: #ffffff;
+    font-weight: 500;
+
+}
+.img-inn {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: linear-gradient(80deg,white 70%, rgb(0, 238, 255),#ccc );
+}
+.div-div {
+    color: var(--grey);
+    font-size: small;
+}
+.logosimg {
+    
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(173, 235, 214,0.3);
+    border-radius: 7px;
+}
+.logosimg img {
+    width: 90%;
+    height: 90%;
+}
+.forP p {
+    font-size: small;
+    margin: 0;
+}
