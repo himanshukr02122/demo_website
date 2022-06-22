@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+    <head><title>CS building</title>
+      
+<style>
+  .logocusb
+  {
+    margin-right: 4px;
+  }
+  .container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 140px;
+  width: 500px;
+  margin:auto;
+  top: 40px;
+}
+.mySlides {display:none;}
+</style>        
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Demo Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Himanshu Kumar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="CS_department.css">    
+
+</head>
+  <body>
+          <!-- Background animtion-->
+    <div class="background">
+      <div class="logocusb">
+        <img src="logocusb.png" height="50px" width="300px" >
+      </div>
+      <div class="container"> 
+        <img src="cs.jpg" style="width:20%">
+          <div class="bottom">Department of Computer Science</div>
+      </div>
+                       <div class="cube"></div>
+                       <div class="cube"></div>
+                       <div class="cube"></div>
+                       <div class="cube"></div>
+                       
+                       <!-- header -->
+
+                <header>
+
+                    <br>
+                    <!-- logo -->
+                          <div class="logo"><marquee>Himanshu</marquee></div>
+                        </header> 
+                        
+    </div>
+                       <!-- Navigation -->
+                        <div class="cube"></div>
+              
+<center>
+
+                       <div class="dropdown" >
+                        <button class="dropbtn"><a href="CS_Department.html">Home</a></button>
+                       
+                       </div>
+                       <div class="dropdown" >
+                        <button class="dropbtn">Programmes</button>
+                        <div class="dropdown-content" style="left:0;">
+                          <a href="#msc">Msc Computer Science</a>
+                          <a href="#mtech">MTech Computer Science</a>
+                          <a href="#phd">PhD in Computer Science</a>
+                    
+                        </div>
+                      </div>
+                      
+                      <div class="dropdown" >
+                        <button class="dropbtn">Courses</button>
+                        <div class="dropdown-content">
+                          <a href="#mscc">Msc Courses </a>
+                          <a href="#mtechc">MTech Courses</a>
+                          <a href="#phdc">PhD Courses</a>
+                  
+                        </div>
+                      </div>
+                      
+                      <div class="dropdown" >
+                        <button class="dropbtn">Faculty</button>
+                        <div class="dropdown-content">
+                        <a href="#faculty">Dr. Jainath Yadav</a>
+                        <a href="#p">Dr. Prabhat Ranjan</a>
+                        <a href="#n">Dr. Nemi Chandra Rathore</a>
+                        <a href="#pi">Dr. Piyush Kumar Singh</a>
+                        </div>
+                         </div>
+                      
+                      <div class="dropdown" >
+                        <button class="dropbtn">Student</button>
+                        <div class="dropdown-content">
+                          <a href="./regform.html">Contact us</a>
+                        
+                        </div>
+                      </div>
+                      
+       </center>               
+                      <section ><center>
+                        <img class="mySlides" src="1.jpg" style="width: 60vw">
+                        <img class="mySlides" src="2.jpg" style="width:60vw">
+                        <img class="mySlides" src="3.jpg" style="width:60vw"></center>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        <div class="cube"></div>
+                        
+                      </section>
+                      <script>
+                        var myIndex = 0;
+                        carousel();
+                        
+                        function carousel() {
+                          var i;
+                          var x = document.getElementsByClassName("mySlides");
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";  
+                          }
+                          myIndex++;
+                          if (myIndex > x.length) {myIndex = 1}    
+                          x[myIndex-1].style.display = "block";  
+                          setTimeout(carousel, 2000); // Change image every 2 seconds
+                        }
+                        </script>
+                        
+                 <p style="font-size:24px">Department of Computer Science</p>
+                 The Department of Computer Science (DCSC) is offering two Master Programmes namely M. Sc. (Computer Science) & M. Tech. (Computer Science). It aims at providing opportunities for global excellence and local relevance in research, teaching and technology development. The department also offers several attractive training and workshop programmes along with industry tie up according to the market need.
+                <br> <p id="msc" style="font-size: 20px;">M.Sc. Computer Science Programme</p>
+                 The two year (four semesters) Post Graduate programme lays emphasis on the theoretical concepts as well as on practical experience and industry interaction. The exercises/assignments/projects given to them help the students to become an independent quality professional and researcher. The programme has the following salient features:
+
+    Designed to take students through rigorous ground-work for taking up research or coming out industry ready.
+    Sound foundation in the fundamentals of Computing, Mathematical and Statistical sciences.
+    Ample technology orientation via laboratory-intensive courses.
+    Rich (open) elective course basket providing plenty of space for inter-disciplinarity required by several emerging areas.
+<br>
+<p id="mtech" style="font-size: 20px;"> M. Tech. Computer Science Programme</p>
+  The two year (four semesters) M. Tech. programme in Computer Science is planned to meet the need of industry as well as research and academics. The M. Tech. programme lets students do a number of specialized courses as well as lets them explore their research and development skills through project work. Course design of M. Tech. in Computer Science balances core courses, electives and a dissertation, catering to both CS and non-CS background students M. Tech. Computer Science trains the students to grow into highly sought-after trained personnel for industry jobs as well as motivates them to take up research as a career in Computer Science. Workshop and expert lectures are conducted to enhance the research skills as well as soft skills of the students.
+<br>
+<p id="faculty" style="font-size:20px">Faculty members under Department of Computer Science: </p>
+<div class="b">
+  <h4>Dr. Jainath Yadav</h4>
+  MTech and PhD(IIT Kharagpur)
+  <br>Assistant Professor<br><br>
+  Email: jainath@cub.ac.in
+  </div>
+  <div class="b">
+    <h4 id="p">Dr. Prabhat Ranjan</h4>
+    MTech and PhD(Computer Science,MNNIT Allahabad, Allahabad)
+    <br>Assistant Professor<br><br>
+    Email: prabhatranjan@cub.ac.in
+    </div>
+    <div class="b">
+      <h4 id="n">Dr. Nemi Chandra Rathore</h4>
+      MTech(Information technology,IIIT, Allahabad)<br>
+      Assistant Professor<br><br>
+      Email: nemichandra@cub.ac.in
+      </div>
+      <div class="b">
+        <h4 id="pi">Dr. Piyush Kumar Singh</h4>
+        PhD(Computer Application, BHU)<br>
+        Assistant Professor<br><br>
+        Email: piyush@cub.ac.in
+      </div>
+
+
+<br><br>
+<a href="iit_bombay.pdf">CUSB is confirmed as RESOURCE Centre for Spoken Tutorial project, IIT Bombay, funded by MHRD, Govt. of India</a>
+
+             
+             
+                </body>

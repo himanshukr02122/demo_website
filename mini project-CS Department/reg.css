@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container{
+  
+      width: 55%;
+      margin: 50px auto;
+      
+      
+  }
+  input{
+      width: 100%;
+      border: 1px solid gray;
+      outline: none;
+      padding: 8px 2px;
+      font-size: medium;
+  }
+  textarea{
+      width: 100%;
+  }
+  
+  .contact_box {
+    border-radius: 7px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,5);
+    background-color: white;
+    display: flex;
+    }
+  
+  
+  .write_us{
+      border-bottom-left-radius: 7px;
+      border-top-left-radius: 7px;
+      flex-basis: 60%;
+      float:left;
+      border: 2px solid antiquewhite;
+      height: 500px;
+      width: 200px;
+      background-color: white;
+      padding: 40px 20px;
+      
+  }
+  .contact_us{
+      flex-basis: 40%;
+      padding: 40px 50px;
+      border-bottom-right-radius: 7px;
+      border-top-right-radius: 7px;
+      float: right;
+      background-color:#00BFFF;
+      color: white;
+      height: 500px;
+      width: 280px;
+  
+  }
+  #submit{
+       
+      background-color:#00BFFF;
+      color: white;
+      width: 90px;
+      border-radius: 8px;
+      height: 30px;
+      margin-top:15px ;
+      font-size: large;
+  
+  }
